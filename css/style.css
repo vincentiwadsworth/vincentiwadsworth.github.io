@@ -23,6 +23,7 @@ h1, p{
 .grid-item img {
   width: 100%;
   display: block;
+  max-height: 30vh;
 }
 
 .item-text {

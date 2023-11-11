@@ -18,6 +18,7 @@ h1, p{
 .grid-item {
   position: relative;
   border-radius: 25px;
+
 }
 
 .grid-item img {
@@ -58,6 +59,10 @@ h1, p{
 
   .grid-container .grid-item:nth-of-type(3n) {
     grid-column: span 2;
+  }
+
+  .grid-item img {
+  border-radius: 0;
   }
 }
 

@@ -1,0 +1,58 @@
+[
+  {
+    "titulo": "El Segundo Sexo",
+    "autora": "Simone de Beauvoir",
+    "publicacion": 1949,
+    "etiquetas": ["Filosofía", "Feminismo", "Existencialismo"],
+    "descripcion": "Obra fundacional del feminismo contemporáneo que analiza la construcción social de la mujer, argumentando que 'no se nace mujer, se llega a serlo'. Un pilar del pensamiento existencialista y una crítica profunda a la opresión patriarcal."
+  },
+  {
+    "titulo": "Primavera Silenciosa",
+    "autora": "Rachel Carson",
+    "publicacion": 1962,
+    "etiquetas": ["Biología", "Ecología", "Medio Ambiente"],
+    "descripcion": "Un hito del movimiento ecologista que expuso los devastadores efectos del uso indiscriminado de pesticidas como el DDT, generando una conciencia pública sin precedentes y llevando a cambios legislativos cruciales para la protección ambiental."
+  },
+  {
+    "titulo": "Pedagogía de la Esperanza",
+    "autora": "bell hooks",
+    "publicacion": 1994,
+    "etiquetas": ["Pedagogía Crítica", "Estudios Culturales", "Feminismo", "Teoría de la Raza"],
+    "descripcion": "Aboga por una pedagogía liberadora que desafía las estructuras de poder y opresión en el aula, enfatizando la conexión entre el contenido académico, la emoción y las experiencias de los estudiantes marginados."
+  },
+  {
+    "titulo": "El Género en Disputa",
+    "autora": "Judith Butler",
+    "publicacion": 1990,
+    "etiquetas": ["Filosofía", "Teoría Feminista", "Teoría Queer"],
+    "descripcion": "Revolucionó la comprensión del género al proponerlo no como una esencia biológica, sino como un 'acto performativo' socialmente construido. Obra fundamental para la teoría queer y los estudios de género contemporáneos."
+  },
+  {
+    "titulo": "Mujeres de Ciencia: 50 Valientes Investigadoras que Cambiaron el Mundo",
+    "autora": "Rachel Ignotofsky",
+    "publicacion": 2016,
+    "etiquetas": ["Biografías Ilustradas", "Ciencia", "Divulgación"],
+    "descripcion": "Una popular introducción a las vidas y descubrimientos de 50 científicas destacadas a lo largo de la historia, visibilizando sus contribuciones e inspirando a nuevas generaciones en el campo de STEM."
+  },
+  {
+    "titulo": "Inferior: How Science Got Women Wrong",
+    "autora": "Angela Saini",
+    "publicacion": 2017,
+    "etiquetas": ["Ensayo", "Divulgación Científica", "Historia"],
+    "descripcion": "Examina y desmantela cómo la ciencia ha utilizado, a lo largo de la historia, argumentos sesgados por prejuicios de género para justificar la subordinación de las mujeres, presentando nuevas investigaciones que reescriben la historia."
+  },
+  {
+    "titulo": "The Bell Jar",
+    "autora": "Sylvia Plath",
+    "publicacion": 1963,
+    "etiquetas": ["Ficción", "Novela Semiautobiográfica"],
+    "descripcion": "Novela semiautobiográfica que aborda la lucha de una joven brillante por encontrar su lugar en el mundo académico y profesional de los años 50, enfrentándose a problemas de salud mental y a las presiones de género de la época."
+  },
+  {
+    "titulo": "Artículo: La Invisibilización de las Mujeres en la Academia",
+    "autora": "Varios Autores",
+    "publicacion": 2020,
+    "etiquetas": ["Artículo Académico", "Estudios de Género", "Sociología"],
+    "descripcion": "Representa los diversos trabajos de investigación que analizan la marginación histórica de las mujeres en las instituciones académicas. Estos estudios desentierran contribuciones olvidadas y examinan los sesgos estructurales en la ciencia y la academia."
+  }
+]

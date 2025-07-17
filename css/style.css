@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+:root {
+    --primary-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Roboto Slab', serif;
+    --bg-color: #f4f4f9;
+    --card-bg-color: #ffffff;
+    --text-color: #333;
+    --primary-color: #4a4e69;
+    --secondary-color: #9a8c98;
+    --tag-bg: #c9ada7;
+    --tag-text: #22223b;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+#filtros-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#filtros-container h2 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#etiquetas-filtro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filtro-btn {
+    background-color: var(--card-bg-color);
+    color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.filtro-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--card-bg-color);
+}
+
+.filtro-btn.active {
+    background-color: var(--primary-color);
+    color: var(--card-bg-color);
+    border-color: var(--primary-color);
+}
+
+#libros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.libro-card {
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.libro-card h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.libro-card p {
+    margin: 5px 0;
+}
+
+.tags-container {
+    margin-top: auto;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
